@@ -29,7 +29,7 @@
 				<div class="form-group mx-sm-3 mb-2 ">
 					<div class="form-group">
 						<label class="mx-sm-3 mb-2" for="help">Email: </label>
-						<input id="help" class="form-control mx-sm-3 mb-2"  type="text" name="email" required>
+						<input id="help" class="form-control mx-sm-3 mb-2"  type="email" name="email" required>
 					</div>
 					<div class="form-group">
 						<label class="mx-sm-3 mb-2" for="pass">Password: </label>
@@ -63,7 +63,7 @@
 					</div>
 					<div class="form-group">
 						<label class="mx-sm-3 mb-2" for="uname">Email: </label>
-						<input id="uname" class="form-control mx-sm-3 mb-2"  type="text" name="email" required>
+						<input id="uname" class="form-control mx-sm-3 mb-2"  type="email" name="email" required>
 					</div>
 					<div class="form-group">
 						<label class="mx-sm-3 mb-2" for="pass">Password: </label>
