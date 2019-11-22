@@ -2,7 +2,6 @@ package co.grandcircus.HibernateDemo109.model;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.time.LocalDate;
 import java.util.Date;
 
 import javax.persistence.Entity;
@@ -22,7 +21,8 @@ public class Task {
 	private String taskName;
 	private String description;
 	private Date dueDate;
-	private boolean complete;
+	// not using this...
+	private Boolean complete;
 
 	@ManyToOne
 	private UserInfo user;
@@ -70,11 +70,11 @@ public class Task {
 		this.dueDate = dueDate;
 	}
 
-	public boolean isComplete() {
+	public Boolean isComplete() {
 		return complete;
 	}
 
-	public void setComplete(boolean complete) {
+	public void setComplete(Boolean complete) {
 		this.complete = complete;
 	}
 
