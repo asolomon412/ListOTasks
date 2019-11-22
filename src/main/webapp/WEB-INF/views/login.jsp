@@ -16,7 +16,7 @@
 			<h1>Welcome to my Task List App!</h1>
 		</div>
 		
-				${message }
+				<h2 style="color:red">${message }</h2>
 			<div class="row">
 		<div class="col-lg-3">
 			<h1>Login</h1>
